@@ -22,19 +22,14 @@ quizButton.addEventListener('click', () => {
     if (countsAsAYes(userAnswer1)) answersCorrect++;
     
     const userAnswer2 = prompt(`${userName}, was one of Liam O'Brien's major anime roles as Gaara in Naruto? (yes or no)`);
-    if (countsAsAYes(userAnswer1)) answersCorrect++;
+    if (countsAsAYes(userAnswer2)) answersCorrect++;
     
     const userAnswer3 = prompt(`${userName} did Liam O'brien appear as a voice actor in the cartoon Star Wars Rebels? (yes or no)`);
-    if (countsAsAYes(userAnswer1)) answersCorrect++;
+    if (countsAsAYes(userAnswer3)) answersCorrect++;
     
     
+    alert(`${userName}, your quiz is completed and your results will be displayed shortly!`);
 
-
-
-
-    
-    
-
-
+    resultsDiv.textContent = `${userName}, your score was ${answersCorrect} out of 3!`
 
 });
