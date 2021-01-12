@@ -1,10 +1,79 @@
 /* add home page styles here */
+
+body {
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: antiquewhite;
+    height: 1200px;
+}
+
 header {
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(53, 32, 33, 0.384);
+}
+
+header h1 {
+    font-size: 30px;
 }
 
 /* navigation link styling */
 .navigation {
     background-color: 775253ff;
+}
+
+.nav-heading {
+    position: relative;
+    left: 100px;
+    font-size: 23px;
+}
+
+/* main section */
+
+h2 {
+    margin: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0;
+    padding: 20px;
+    width: 40%;
+}
+ul {
+    display: inline-block;
+    list-style: disc;
+}
+
+button {
+    display:inline-block;
+    background-color: coral;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    height: fit-content;
+}
+
+#secret-div {
+    background-color: coral;
+    width: 100%;
+    height: 100%;
+    border: 12px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+section h3 {
+    margin: 30px;
+    font-weight: bolder;
+    font-size: 40px;
 }
