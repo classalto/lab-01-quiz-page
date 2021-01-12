@@ -40,4 +40,13 @@
         - Alert the user that their results will be displayed on the screen   
         - insert our result string into our div container 
             - make sure to include the user's first, and include the number of answers they got right
+
+        # EXTRAS
+        - outcome: turn the user score into a percentage
+            - divide user score by total number of questions and store it in a variable
+            - validation: display the result of the calculation in the variable
+
+            - convert the float into a whole number
+                - validation: log the conversion in the results container
+                
         
