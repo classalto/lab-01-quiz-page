@@ -1,1 +1,10 @@
 /* add home page styles here */
+header {
+    justify-content: space-around;
+    
+}
+
+/* navigation link styling */
+.navigation {
+    background-color: 775253ff;
+}

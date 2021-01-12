@@ -30,6 +30,6 @@ quizButton.addEventListener('click', () => {
     
     alert(`${userName}, your quiz is completed and your results will be displayed shortly!`);
 
-    resultsDiv.textContent = `${userName}, your score was ${answersCorrect} out of 3!`
+    resultsDiv.textContent = `${userName}, your score was ${answersCorrect} out of 3!`;
 
 });
