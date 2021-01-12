@@ -33,6 +33,17 @@ quizButton.addEventListener('click', () => {
     const floatCorrect = (answersCorrect / 3) * 100;
     const percentCorrect = Math.ceil(floatCorrect);
 
+    // results styling control flow
+    if (answersCorrect == 3) {
+        resultsDiv.classList.add('three');
+    } else if (answersCorrect == 2) {
+        resultsDiv.classList.add('two');
+    } else if (answersCorrect == 1) {
+        resultsDiv.classList.add('one');
+    } else {
+        resultsDiv.classList.add('zero');
+    }
+
     resultsDiv.textContent = `${userName}, your score was ${percentCorrect}%!`;
 
 });

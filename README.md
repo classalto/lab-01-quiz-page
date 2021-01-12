@@ -48,5 +48,20 @@
 
             - convert the float into a whole number
                 - validation: log the conversion in the results container
-                
+        
+        - outcome: change the style and content of the results container depending on the user score
+            - write conditional if statement
+                - if score is 3/3 change to this style
+                    - green text, white background, green border
+                    validate: run test
+                - else if score is 2/3 change to this style
+                    - light blue text, white background
+                    validate: run test
+                - else if score is 1/3 this style
+                    - red text, coral background, 
+                    validate: run test
+                - else if score is 0/3 this style
+                    - red text, black background, red border
+                    validate: run test
+
         

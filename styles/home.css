@@ -23,7 +23,7 @@ header h1 {
 
 .nav-heading {
     position: relative;
-    left: 100px;
+    left: 80px;
     font-size: 23px;
 }
 
@@ -64,7 +64,6 @@ main {
 }
 
 #secret-div {
-    background-color: coral;
     width: 100%;
     height: 100%;
     border: 12px solid black;
@@ -76,4 +75,31 @@ section h3 {
     margin: 30px;
     font-weight: bolder;
     font-size: 40px;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+/* conditional colors, class lists */
+.three {
+    color:lime;
+    background-color: whitesmoke;
+    border: 10px solid lime;
+}
+
+.two {
+    color: lightskyblue;
+    background-color: coral;
+}
+
+.one {
+    color: red;
+    background-color: coral;
+}
+
+.zero {
+    color: red;
+    background-color: black;
+    border: 10px solid red;
 }
