@@ -34,11 +34,11 @@ quizButton.addEventListener('click', () => {
     const percentCorrect = Math.ceil(floatCorrect);
 
     // results styling control flow
-    if (answersCorrect == 3) {
+    if (answersCorrect === 3) {
         resultsDiv.classList.add('three');
-    } else if (answersCorrect == 2) {
+    } else if (answersCorrect === 2) {
         resultsDiv.classList.add('two');
-    } else if (answersCorrect == 1) {
+    } else if (answersCorrect === 1) {
         resultsDiv.classList.add('one');
     } else {
         resultsDiv.classList.add('zero');
