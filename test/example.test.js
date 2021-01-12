@@ -16,14 +16,14 @@ test('should return false when given hell yes as an input', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
-test('time to test a function', (expect) => {
+test('should return false when given an input of naaaah', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const expected = false;
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = false;
+    const actual = countsAsAYes('naaaah');
 
     //Expect
     // Make assertions about what is expected versus the actual result
